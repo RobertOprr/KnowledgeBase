@@ -1,18 +1,29 @@
 site_name: IT Support Knowledge Base
 site_description: A troubleshooting knowledge base for L1 IT Help Desk support.
 site_author: Robert Oprisan
-repo_url: https://github.com/RobertOprr/support-kb
-repo_name: RobertOprr/support-kb
+site_url: https://robertoprr.github.io/KnowledgeBase/
+repo_url: https://github.com/RobertOprr/KnowledgeBase
+repo_name: RobertOprr/KnowledgeBase
 edit_uri: edit/main/docs/
 
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: indigo
-    accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
   features:
-    - navigation.instant
     - navigation.sections
     - navigation.top
     - navigation.expand
@@ -20,28 +31,73 @@ theme:
     - search.highlight
     - content.code.copy
 
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ro
+          name: Română
+          build: true
+          site_name: Baza de cunoștințe pentru suport IT
+          site_description: O bază de cunoștințe pentru depanare, destinată suportului IT de nivel 1 (L1).
+          nav_translations:
+            Home: Acasă
+            ":material-account-key: Accounts": ":material-account-key: Conturi"
+            ":material-wifi: Network": ":material-wifi: Rețea"
+            ":material-desktop-tower: Hardware": ":material-desktop-tower: Hardware"
+            ":material-printer: Printers": ":material-printer: Imprimante"
+            ":material-email: Email": ":material-email: Email"
+            ":material-arrow-up-bold-circle: Process": ":material-arrow-up-bold-circle: Proces"
+            Password Reset & Account Lockout: Resetare parolă și blocare cont
+            MFA Issues: Probleme de autentificare multi-factor (MFA)
+            Wi-Fi & Network Connectivity: Conectivitate Wi-Fi și rețea
+            VPN Connection Issues: Probleme de conexiune VPN
+            Computer Won't Boot: Calculatorul nu pornește
+            Slow Computer Performance: Performanță scăzută a calculatorului
+            Peripheral Not Detected: Periferic nedetectat
+            Printer Not Printing: Imprimanta nu printează
+            Outlook Sync Problems: Probleme de sincronizare Outlook
+            Escalation Criteria (L1 to L2): Criterii de escaladare (L1 către L2)
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: false
+
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
 
 nav:
   - Home: index.md
-  - Accounts:
+  - ":material-account-key: Accounts":
       - Password Reset & Account Lockout: accounts/password-reset-account-lockout.md
       - MFA Issues: accounts/mfa-issues.md
-  - Network:
+  - ":material-wifi: Network":
       - Wi-Fi & Network Connectivity: network/wifi-connectivity-troubleshooting.md
       - VPN Connection Issues: network/vpn-connection-issues.md
-  - Hardware:
+  - ":material-desktop-tower: Hardware":
       - Computer Won't Boot: hardware/computer-wont-boot.md
       - Slow Computer Performance: hardware/slow-computer-performance.md
       - Peripheral Not Detected: hardware/peripheral-not-detected.md
-  - Printers:
+  - ":material-printer: Printers":
       - Printer Not Printing: printers/printer-not-printing.md
-  - Email:
+  - ":material-email: Email":
       - Outlook Sync Problems: email/outlook-sync-issues.md
-  - Process:
+  - ":material-arrow-up-bold-circle: Process":
       - "Escalation Criteria (L1 to L2)": process/escalation-criteria.md
