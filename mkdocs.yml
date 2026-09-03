@@ -9,8 +9,10 @@ copyright: "&copy; 2026 Robert Oprisan"
 
 theme:
   name: material
+  custom_dir: overrides
   icon:
     logo: material/lifebuoy
+  favicon: assets/favicon.png
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -27,15 +29,16 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
   features:
-    - navigation.sections
     - navigation.top
-    - navigation.expand
     - search.suggest
     - search.highlight
     - content.code.copy
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/hero-search.js
 
 plugins:
   - search
