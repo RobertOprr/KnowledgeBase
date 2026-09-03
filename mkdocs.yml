@@ -5,9 +5,12 @@ site_url: https://robertoprr.github.io/KnowledgeBase/
 repo_url: https://github.com/RobertOprr/KnowledgeBase
 repo_name: RobertOprr/KnowledgeBase
 edit_uri: edit/main/docs/
+copyright: "&copy; 2026 Robert Oprisan"
 
 theme:
   name: material
+  icon:
+    logo: material/lifebuoy
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate

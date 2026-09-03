@@ -16,3 +16,27 @@
   --md-default-fg-color--light: hsla(var(--md-hue), 15%, 90%, 0.7);
   --md-default-fg-color--lighter: hsla(var(--md-hue), 15%, 90%, 0.45);
 }
+
+/* Custom brand palette (deep steel blue + teal accent) instead of the
+   Material-for-MkDocs tutorial default (indigo) */
+:root {
+  --md-primary-fg-color: #2a4b7c;
+  --md-primary-fg-color--light: #4a6fa5;
+  --md-primary-fg-color--dark: #1b3352;
+  --md-accent-fg-color: #2ba6a4;
+  --md-accent-fg-color--transparent: #2ba6a41a;
+}
+
+/* Force the homepage quick-link cards into one balanced row instead of
+   wrapping to a lopsided 2-then-1 grid */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .grid.cards {
+    grid-template-columns: 1fr;
+  }
+}
