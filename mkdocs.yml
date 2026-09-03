@@ -67,8 +67,14 @@ plugins:
             Computer Won't Boot: Calculatorul nu pornește
             Slow Computer Performance: Performanță scăzută a calculatorului
             Peripheral Not Detected: Periferic nedetectat
+            Blue Screen of Death (BSOD): Ecran albastru (BSOD)
+            Software: Software
+            Software Won't Install or Crashes: Software-ul nu se instalează sau se blochează
             Printer Not Printing: Imprimanta nu printează
             Outlook Sync Problems: Probleme de sincronizare Outlook
+            Security: Securitate
+            Malware or Virus Infection: Infecție cu malware sau virus
+            Shared Drive and File Permissions: Unitate partajată și permisiuni fișiere
             Escalation Criteria (L1 to L2): Criterii de escaladare (L1 către L2)
   - git-revision-date-localized:
       type: date
@@ -94,13 +100,19 @@ nav:
   - Network:
       - Wi-Fi & Network Connectivity: network/wifi-connectivity-troubleshooting.md
       - VPN Connection Issues: network/vpn-connection-issues.md
+      - Shared Drive and File Permissions: network/shared-drive-permissions.md
   - Hardware:
       - Computer Won't Boot: hardware/computer-wont-boot.md
       - Slow Computer Performance: hardware/slow-computer-performance.md
       - Peripheral Not Detected: hardware/peripheral-not-detected.md
+      - Blue Screen of Death (BSOD): hardware/blue-screen-of-death.md
+  - Software:
+      - Software Won't Install or Crashes: software/software-install-crash.md
   - Printers:
       - Printer Not Printing: printers/printer-not-printing.md
   - Email:
       - Outlook Sync Problems: email/outlook-sync-issues.md
+  - Security:
+      - Malware or Virus Infection: security/malware-virus-infection.md
   - Process:
       - "Escalation Criteria (L1 to L2)": process/escalation-criteria.md
