@@ -1,16 +1,38 @@
+---
+hide:
+  - toc
+---
+
 # IT Support Knowledge Base
 
-This is a knowledge base of common Level 1 (L1) IT Help Desk issues. Each article
-follows the same structure — Symptom, Possible Causes, Step-by-step Resolution,
-and When to Escalate — so any agent can pick up an article and act on it quickly.
+Press **/** to search, or jump straight to a common issue below.
 
-## Categories
+<div class="grid cards" markdown>
 
-- **Accounts** — password resets, lockouts, and multi-factor authentication
-- **Network** — Wi-Fi connectivity and VPN issues
-- **Hardware** — boot failures, slow performance, and peripheral problems
-- **Printers** — printer not printing
-- **Email** — Outlook sync problems
-- **Process** — when and how to escalate a ticket from L1 to L2
+-   :material-lock-reset:{ .lg .middle } **Password Reset & Account Lockout**
 
-Use the navigation menu to find a specific article, or use the search bar above.
+    ---
+
+    Locked out or forgot your password? Start here.
+
+    [:octicons-arrow-right-24: Read article](accounts/password-reset-account-lockout.md)
+
+-   :material-wifi:{ .lg .middle } **Wi-Fi & Network Connectivity**
+
+    ---
+
+    No internet or a dropped connection? Troubleshoot it here.
+
+    [:octicons-arrow-right-24: Read article](network/wifi-connectivity-troubleshooting.md)
+
+-   :material-printer:{ .lg .middle } **Printer Not Printing**
+
+    ---
+
+    Print jobs stuck or printer offline? Fix it here.
+
+    [:octicons-arrow-right-24: Read article](printers/printer-not-printing.md)
+
+</div>
+
+Every article follows the same structure — Symptom, Possible Causes, Step-by-step Resolution, and When to Escalate — so any agent can pick one up and act on it quickly. The full list of categories is in the sidebar.

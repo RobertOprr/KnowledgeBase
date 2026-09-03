@@ -1,0 +1,18 @@
+/* Only reveal heading permalink icons on hover, not permanently */
+.md-typeset .headerlink {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.md-typeset h1:hover .headerlink,
+.md-typeset h2:hover .headerlink,
+.md-typeset h3:hover .headerlink,
+.md-typeset h4:hover .headerlink {
+  opacity: 1;
+}
+
+/* Boost secondary text contrast in dark mode */
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color--light: hsla(var(--md-hue), 15%, 90%, 0.7);
+  --md-default-fg-color--lighter: hsla(var(--md-hue), 15%, 90%, 0.45);
+}
