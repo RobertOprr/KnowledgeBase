@@ -2,8 +2,8 @@
 
 ## Simptom
 
-Un periferic conectat — tastatură, mouse, webcam, unitate USB sau
-similar — nu este recunoscut de calculator.
+Un periferic conectat (tastatură, mouse, webcam, unitate USB sau
+similar) nu este recunoscut de calculator.
 
 ## Cauze posibile
 

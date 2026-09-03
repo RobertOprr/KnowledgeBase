@@ -19,7 +19,7 @@ durează mult să se deschidă sau sistemul îngheață intermitent.
 
 1. Deschide Task Manager și verifică utilizarea procesorului, memoriei și
    discului pentru a identifica ce consumă resurse.
-2. Repornește calculatorul — acest pas singur rezolvă adesea încetinirile
+2. Repornește calculatorul. Acest pas singur rezolvă adesea încetinirile
    temporare.
 3. Verifică dacă există actualizări Windows în așteptare și lasă-le să se
    finalizeze.

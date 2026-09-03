@@ -1,4 +1,4 @@
-# Criterii de escaladare a tichetelor — L1 către L2
+# Criterii de escaladare a tichetelor: L1 către L2
 
 Acest articol este un ghid de proces, nu un scenariu de depanare, așa că
 folosește o structură ușor diferită față de restul bazei de cunoștințe.
@@ -48,7 +48,7 @@ fără să repete munca deja făcută.
 - Pașii deja parcurși și rezultatele lor.
 - Dacă problema este izolată la un singur utilizator sau afectează mai
   multe persoane.
-- Orice marcaje temporale relevante — când a început problema și când a
+- Orice marcaje temporale relevante: când a început problema și când a
   funcționat ultima dată normal.
 - Detaliile dispozitivului utilizatorului (versiunea sistemului de operare,
   numele dispozitivului sau eticheta de inventar), dacă sunt relevante.

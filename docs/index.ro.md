@@ -35,4 +35,4 @@ Apasă **/** pentru a căuta, sau treci direct la o problemă frecventă mai jos
 
 </div>
 
-Fiecare articol respectă aceeași structură — Simptom, Cauze posibile, Rezolvare pas cu pas și Când se escaladează — astfel încât orice agent poate prelua un articol și acționa rapid. Lista completă de categorii se află în meniul lateral.
+Fiecare articol respectă aceeași structură: Simptom, Cauze posibile, Rezolvare pas cu pas și Când se escaladează, astfel încât orice agent poate prelua un articol și acționa rapid. Lista completă de categorii se află în meniul lateral.

@@ -21,7 +21,7 @@ they are entering the correct password.
 1. Confirm the exact error message with the user (for example, "incorrect
    password" versus "account locked").
 2. Ask the user to check that Caps Lock and Num Lock are off, then retry.
-3. Verify the account is locked, not disabled — the two require different
+3. Verify the account is locked, not disabled: the two require different
    fixes.
 4. Unlock the account using the account management console, or direct the
    user to the self-service unlock portal if one is available.

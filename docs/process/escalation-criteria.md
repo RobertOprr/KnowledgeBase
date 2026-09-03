@@ -1,4 +1,4 @@
-# Ticket Escalation Criteria — L1 to L2
+# Ticket Escalation Criteria: L1 to L2
 
 This article is a process guide rather than a troubleshooting scenario, so
 it uses a slightly different structure from the rest of the knowledge
@@ -44,7 +44,7 @@ that's already been done.
 - The exact error messages or screenshots.
 - The steps already taken and their results.
 - Whether the issue is isolated to one user or affects multiple people.
-- Any relevant timestamps — when the issue started, and when it was last
+- Any relevant timestamps: when the issue started, and when it was last
   working normally.
 - The user's device details (OS version, device name or asset tag) if
   relevant.

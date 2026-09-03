@@ -22,7 +22,7 @@ că introduce parola corectă.
    „parolă incorectă” versus „cont blocat”).
 2. Cere utilizatorului să verifice dacă Caps Lock și Num Lock sunt
    dezactivate, apoi să încerce din nou.
-3. Verifică dacă contul este blocat, nu dezactivat — cele două necesită
+3. Verifică dacă contul este blocat, nu dezactivat: cele două necesită
    soluții diferite.
 4. Deblochează contul din consola de administrare a conturilor sau
    direcționează utilizatorul către portalul de auto-deblocare, dacă există.

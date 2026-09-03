@@ -2,7 +2,7 @@
 
 ## Symptom
 
-A connected peripheral — keyboard, mouse, webcam, USB drive, or similar —
+A connected peripheral (keyboard, mouse, webcam, USB drive, or similar)
 is not recognized by the computer.
 
 ## Possible Causes

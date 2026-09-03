@@ -3,7 +3,7 @@
 ## Symptom
 
 The user cannot finish logging in because their multi-factor authentication
-(MFA) prompt — an app notification, a code, or a phone call — isn't working.
+(MFA) prompt (an app notification, a code, or a phone call) isn't working.
 
 ## Possible Causes
 

@@ -35,4 +35,4 @@ Press **/** to search, or jump straight to a common issue below.
 
 </div>
 
-Every article follows the same structure — Symptom, Possible Causes, Step-by-step Resolution, and When to Escalate — so any agent can pick one up and act on it quickly. The full list of categories is in the sidebar.
+Every article follows the same structure: Symptom, Possible Causes, Step-by-step Resolution, and When to Escalate, so any agent can pick one up and act on it quickly. The full list of categories is in the sidebar.

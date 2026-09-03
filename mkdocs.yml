@@ -51,12 +51,12 @@ plugins:
           site_description: O bază de cunoștințe pentru depanare, destinată suportului IT de nivel 1 (L1).
           nav_translations:
             Home: Acasă
-            ":material-account-key: Accounts": ":material-account-key: Conturi"
-            ":material-wifi: Network": ":material-wifi: Rețea"
-            ":material-desktop-tower: Hardware": ":material-desktop-tower: Hardware"
-            ":material-printer: Printers": ":material-printer: Imprimante"
-            ":material-email: Email": ":material-email: Email"
-            ":material-arrow-up-bold-circle: Process": ":material-arrow-up-bold-circle: Proces"
+            Accounts: Conturi
+            Network: Rețea
+            Hardware: Hardware
+            Printers: Imprimante
+            Email: Email
+            Process: Proces
             Password Reset & Account Lockout: Resetare parolă și blocare cont
             MFA Issues: Probleme de autentificare multi-factor (MFA)
             Wi-Fi & Network Connectivity: Conectivitate Wi-Fi și rețea
@@ -85,19 +85,19 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - ":material-account-key: Accounts":
+  - Accounts:
       - Password Reset & Account Lockout: accounts/password-reset-account-lockout.md
       - MFA Issues: accounts/mfa-issues.md
-  - ":material-wifi: Network":
+  - Network:
       - Wi-Fi & Network Connectivity: network/wifi-connectivity-troubleshooting.md
       - VPN Connection Issues: network/vpn-connection-issues.md
-  - ":material-desktop-tower: Hardware":
+  - Hardware:
       - Computer Won't Boot: hardware/computer-wont-boot.md
       - Slow Computer Performance: hardware/slow-computer-performance.md
       - Peripheral Not Detected: hardware/peripheral-not-detected.md
-  - ":material-printer: Printers":
+  - Printers:
       - Printer Not Printing: printers/printer-not-printing.md
-  - ":material-email: Email":
+  - Email:
       - Outlook Sync Problems: email/outlook-sync-issues.md
-  - ":material-arrow-up-bold-circle: Process":
+  - Process:
       - "Escalation Criteria (L1 to L2)": process/escalation-criteria.md

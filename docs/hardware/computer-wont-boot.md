@@ -1,4 +1,4 @@
-# Computer Won't Boot — Triage Guide
+# Computer Won't Boot: Triage Guide
 
 ## Symptom
 
@@ -8,7 +8,7 @@ screen.
 ## Possible Causes
 
 - A power cable or battery issue, so no power is reaching the device.
-- A loose or faulty display cable — the device is on, but the screen stays
+- A loose or faulty display cable: the device is on, but the screen stays
   blank.
 - A corrupted or failed operating system startup.
 - A recent Windows update or driver causing a boot loop.
@@ -21,7 +21,7 @@ screen.
    working.
 2. For laptops, check whether the battery indicator light turns on when
    plugged in, and try a different charger if one is available.
-3. Look and listen for any signs of power — fans spinning, lights on — even
+3. Look and listen for any signs of power (fans spinning, lights on), even
    if the screen stays blank.
 4. If the device powers on but the screen is blank, connect an external
    monitor to rule out a display issue.

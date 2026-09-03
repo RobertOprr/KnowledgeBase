@@ -19,7 +19,7 @@ long time to open, or the system freezes intermittently.
 
 1. Open Task Manager and check CPU, memory, and disk usage to identify
    what's consuming resources.
-2. Restart the computer — this alone often resolves temporary slowdowns.
+2. Restart the computer. This alone often resolves temporary slowdowns.
 3. Check for pending Windows updates and let them finish installing.
 4. Check available disk space and free up space if the drive is nearly
    full.

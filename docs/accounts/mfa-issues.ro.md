@@ -3,8 +3,8 @@
 ## Simptom
 
 Utilizatorul nu poate finaliza autentificarea deoarece solicitarea de
-autentificare multi-factor (MFA) — o notificare din aplicație, un cod sau
-un apel telefonic — nu funcționează.
+autentificare multi-factor (MFA) (o notificare din aplicație, un cod sau
+un apel telefonic) nu funcționează.
 
 ## Cauze posibile
 

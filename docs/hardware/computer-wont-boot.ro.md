@@ -1,4 +1,4 @@
-# Calculatorul nu pornește — Ghid de triaj
+# Calculatorul nu pornește: Ghid de triaj
 
 ## Simptom
 
@@ -9,7 +9,7 @@ ecranul de autentificare.
 
 - O problemă de cablu de alimentare sau baterie, astfel încât dispozitivul
   nu primește curent.
-- Un cablu de display slăbit sau defect — dispozitivul este pornit, dar
+- Un cablu de display slăbit sau defect: dispozitivul este pornit, dar
   ecranul rămâne negru.
 - O pornire a sistemului de operare coruptă sau eșuată.
 - O actualizare Windows sau un driver recent care cauzează un boot loop.
@@ -23,8 +23,8 @@ ecranul de autentificare.
 2. Pentru laptopuri, verifică dacă indicatorul luminos al bateriei se
    aprinde la conectarea încărcătorului și încearcă un alt încărcător, dacă
    este disponibil.
-3. Caută și ascultă orice semn de alimentare — ventilatoare care se
-   rotesc, lumini aprinse — chiar dacă ecranul rămâne negru.
+3. Caută și ascultă orice semn de alimentare (ventilatoare care se
+   rotesc, lumini aprinse), chiar dacă ecranul rămâne negru.
 4. Dacă dispozitivul pornește dar ecranul este negru, conectează un monitor
    extern pentru a exclude o problemă de display.
 5. Deconectează toate perifericele neesențiale (unități USB, monitoare
