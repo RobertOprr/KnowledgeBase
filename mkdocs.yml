@@ -1,0 +1,47 @@
+site_name: IT Support Knowledge Base
+site_description: A troubleshooting knowledge base for L1 IT Help Desk support.
+site_author: Robert Oprisan
+repo_url: https://github.com/RobertOprr/support-kb
+repo_name: RobertOprr/support-kb
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Accounts:
+      - Password Reset & Account Lockout: accounts/password-reset-account-lockout.md
+      - MFA Issues: accounts/mfa-issues.md
+  - Network:
+      - Wi-Fi & Network Connectivity: network/wifi-connectivity-troubleshooting.md
+      - VPN Connection Issues: network/vpn-connection-issues.md
+  - Hardware:
+      - Computer Won't Boot: hardware/computer-wont-boot.md
+      - Slow Computer Performance: hardware/slow-computer-performance.md
+      - Peripheral Not Detected: hardware/peripheral-not-detected.md
+  - Printers:
+      - Printer Not Printing: printers/printer-not-printing.md
+  - Email:
+      - Outlook Sync Problems: email/outlook-sync-issues.md
+  - Process:
+      - "Escalation Criteria (L1 to L2)": process/escalation-criteria.md
