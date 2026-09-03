@@ -46,3 +46,7 @@ că introduce parola corectă.
   sau un tipar neobișnuit.
 - Utilizatorul spune că nu a încercat să se autentifice în momentul în care
   a avut loc blocarea.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_accounts_password-reset){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

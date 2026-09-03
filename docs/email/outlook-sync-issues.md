@@ -37,3 +37,7 @@ outbox.
 - Multiple users are affected, suggesting an email service outage.
 - The issue involves account permissions, shared mailboxes, or settings
   you cannot change at L1 level.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_email_outlook-sync){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

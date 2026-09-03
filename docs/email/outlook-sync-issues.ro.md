@@ -42,3 +42,7 @@ outbox.
   de email.
 - Problema implică permisiuni de cont, căsuțe poștale partajate sau setări
   pe care nu le poți modifica la nivel L1.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_email_outlook-sync){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

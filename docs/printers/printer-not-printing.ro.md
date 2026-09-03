@@ -44,3 +44,7 @@ sarcina rămâne blocată în coadă.
 - Imprimanta necesită o actualizare de firmware sau o reparație hardware.
 - Probleme de server de printare sau spooler afectează mai multe imprimante
   simultan.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_printers_not-printing){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

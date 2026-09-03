@@ -42,3 +42,7 @@ poate accesa resursele interne.
   indică o problemă de director sau de licențiere.
 - Rezolvarea necesită modificări ale regulilor de firewall sau acces la
   configurarea serverului VPN pe care nu îl ai.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_network_vpn){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

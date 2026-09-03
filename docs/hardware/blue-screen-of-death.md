@@ -43,3 +43,7 @@ unexpectedly, sometimes repeatedly.
 - The crashes happen so frequently that basic diagnostics can't complete.
 - The issue started after a Windows feature update and affects multiple
   devices, suggesting a broader compatibility problem.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_bsod){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

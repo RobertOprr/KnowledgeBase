@@ -52,3 +52,7 @@ blochează imediat după deschidere.
   de implementare sau o actualizare defectă.
 - Rezolvarea necesită procesul propriu de suport al furnizorului
   software pentru o problemă cunoscută.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_software_install-crash){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

@@ -44,3 +44,7 @@ screen.
 - Safe Mode also fails to load.
 - The symptoms suggest a failing hard drive or motherboard component that
   needs hardware diagnostics.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_wont-boot){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

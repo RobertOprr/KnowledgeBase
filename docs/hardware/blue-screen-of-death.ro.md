@@ -47,3 +47,7 @@ apoi repornește neașteptat, uneori repetat.
   pot finaliza.
 - Problema a început după o actualizare majoră Windows și afectează mai
   multe dispozitive, sugerând o problemă de compatibilitate mai amplă.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_bsod){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

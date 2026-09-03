@@ -43,3 +43,7 @@ durează mult să se deschidă sau sistemul îngheață intermitent.
 - Problema persistă după toți pașii standard, sugerând că poate fi nevoie
   de o actualizare hardware.
 - Este detectat malware pe care instrumentele de bază nu îl pot elimina.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_slow-performance){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

@@ -45,3 +45,7 @@ opened.
   package or update.
 - Resolving it requires the software vendor's own support process for a
   known bug.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_software_install-crash){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

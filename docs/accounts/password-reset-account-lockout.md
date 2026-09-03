@@ -43,3 +43,7 @@ they are entering the correct password.
 - Sign-in logs show attempts from an unfamiliar location or an unusual
   pattern.
 - The user says they did not attempt to log in when the lockout occurred.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_accounts_password-reset){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

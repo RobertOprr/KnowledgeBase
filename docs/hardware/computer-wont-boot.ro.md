@@ -48,3 +48,7 @@ ecranul de autentificare.
 - Safe Mode eșuează și el la încărcare.
 - Simptomele sugerează o defecțiune a hard diskului sau a plăcii de bază
   care necesită diagnosticare hardware.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_wont-boot){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

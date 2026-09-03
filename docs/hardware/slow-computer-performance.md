@@ -40,3 +40,7 @@ long time to open, or the system freezes intermittently.
 - The issue persists after all standard steps, suggesting a hardware
   upgrade may be needed.
 - Malware is detected that basic tools cannot remove.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_slow-performance){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

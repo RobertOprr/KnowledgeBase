@@ -39,3 +39,7 @@ reach internal resources.
   points to a directory or licensing issue.
 - Fixing the issue requires firewall rule changes or VPN server
   configuration access you don't have.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_network_vpn){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

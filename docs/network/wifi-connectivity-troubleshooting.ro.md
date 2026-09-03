@@ -44,3 +44,7 @@ acces la internet.
 - Suspectezi o defecțiune hardware la router, switch sau punctul de acces.
 - Utilizatorul are nevoie de acces la resurse exclusiv interne care necesită
   configurare din partea echipei de rețea.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_network_wifi){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

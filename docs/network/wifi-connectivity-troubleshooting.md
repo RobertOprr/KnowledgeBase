@@ -40,3 +40,7 @@ access.
 - You suspect a hardware fault in the router, switch, or access point.
 - The user needs access to internal-only resources that require network
   team configuration.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_network_wifi){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

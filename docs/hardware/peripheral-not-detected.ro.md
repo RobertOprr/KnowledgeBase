@@ -38,3 +38,7 @@ similar) nu este recunoscut de calculator.
 - Problema afectează un periferic specializat sau non-standard, în afara
   listei suportate de echipa ta.
 - Portul în sine pare deteriorat fizic și necesită reparație hardware.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_peripheral){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

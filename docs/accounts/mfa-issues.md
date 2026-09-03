@@ -44,3 +44,7 @@ The user cannot finish logging in because their multi-factor authentication
   MFA succeeds.
 - The user reports MFA prompts they did not trigger, which may indicate a
   compromised account.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_accounts_mfa){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

@@ -47,3 +47,7 @@ un apel telefonic) nu funcționează.
   chiar și după ce MFA reușește.
 - Utilizatorul raportează solicitări MFA pe care nu le-a inițiat, ceea ce
   poate indica un cont compromis.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_accounts_mfa){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

@@ -34,3 +34,7 @@ is not recognized by the computer.
 - The issue affects a specialized or non-standard peripheral outside your
   team's supported list.
 - The port itself appears physically damaged and needs hardware repair.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_hardware_peripheral){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

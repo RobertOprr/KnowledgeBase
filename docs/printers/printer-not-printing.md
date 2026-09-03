@@ -39,3 +39,7 @@ the queue.
   points to a shared driver or print server problem.
 - The printer needs a firmware update or hardware repair.
 - Print server or spooler issues are affecting multiple printers at once.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_printers_not-printing){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.

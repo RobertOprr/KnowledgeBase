@@ -48,3 +48,7 @@ sau primește o eroare „Access Denied” la deschiderea unui anumit fișier.
   restricționate, necesitând aprobarea unui manager sau proprietar.
 - Problema persistă după remaparea unității și confirmarea apartenenței
   la grup, sugerând o problemă la nivel de server.
+
+---
+
+**Tot ai nevoie de ajutor?** [Trimite un tichet](https://helpdesk-frontend-idzb.onrender.com/?source=kb_network_shared-drive){: target="_blank" rel="noopener" } și menționează acest articol. Agentul va ști deja ce pași ai încercat.

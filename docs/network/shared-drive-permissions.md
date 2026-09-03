@@ -43,3 +43,7 @@ The user cannot access a shared network drive or folder, or gets an
   requiring manager or owner approval.
 - The issue persists after remapping the drive and confirming group
   membership, suggesting a server-side problem.
+
+---
+
+**Still stuck?** [Submit a ticket](https://helpdesk-frontend-idzb.onrender.com/?source=kb_network_shared-drive){: target="_blank" rel="noopener" } and reference this article. The agent will already know what steps you've tried.
