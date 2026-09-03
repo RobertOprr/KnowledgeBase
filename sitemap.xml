@@ -36,6 +36,13 @@
         <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/email/outlook-sync-issues/"/>
     </url>
     <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/hardware/blue-screen-of-death/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/hardware/blue-screen-of-death/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/hardware/blue-screen-of-death/"/>
+    </url>
+    <url>
         <loc>https://robertoprr.github.io/KnowledgeBase/hardware/computer-wont-boot/</loc>
         <lastmod>2026-09-03</lastmod>
         <changefreq>daily</changefreq>
@@ -55,6 +62,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/hardware/slow-computer-performance/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/hardware/slow-computer-performance/"/>
+    </url>
+    <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/network/shared-drive-permissions/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/network/shared-drive-permissions/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/network/shared-drive-permissions/"/>
     </url>
     <url>
         <loc>https://robertoprr.github.io/KnowledgeBase/network/vpn-connection-issues/</loc>
@@ -83,6 +97,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/process/escalation-criteria/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/process/escalation-criteria/"/>
+    </url>
+    <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/security/malware-virus-infection/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/security/malware-virus-infection/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/security/malware-virus-infection/"/>
+    </url>
+    <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/software/software-install-crash/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/software/software-install-crash/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/software/software-install-crash/"/>
     </url>
     <url>
         <loc>https://robertoprr.github.io/KnowledgeBase/ro/</loc>
@@ -120,6 +148,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/email/outlook-sync-issues/"/>
     </url>
     <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/ro/hardware/blue-screen-of-death/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/hardware/blue-screen-of-death/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/hardware/blue-screen-of-death/"/>
+    </url>
+    <url>
         <loc>https://robertoprr.github.io/KnowledgeBase/ro/hardware/computer-wont-boot/</loc>
         <lastmod>2026-09-03</lastmod>
         <changefreq>daily</changefreq>
@@ -139,6 +174,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/hardware/slow-computer-performance/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/hardware/slow-computer-performance/"/>
+    </url>
+    <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/ro/network/shared-drive-permissions/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/network/shared-drive-permissions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/network/shared-drive-permissions/"/>
     </url>
     <url>
         <loc>https://robertoprr.github.io/KnowledgeBase/ro/network/vpn-connection-issues/</loc>
@@ -167,5 +209,19 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/process/escalation-criteria/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/process/escalation-criteria/"/>
+    </url>
+    <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/ro/security/malware-virus-infection/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/security/malware-virus-infection/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/security/malware-virus-infection/"/>
+    </url>
+    <url>
+        <loc>https://robertoprr.github.io/KnowledgeBase/ro/software/software-install-crash/</loc>
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://robertoprr.github.io/KnowledgeBase/ro/software/software-install-crash/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://robertoprr.github.io/KnowledgeBase/software/software-install-crash/"/>
     </url>
 </urlset>

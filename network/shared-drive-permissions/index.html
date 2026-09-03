@@ -1,46 +1,46 @@
 
 <!doctype html>
-<html lang="ro" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="O bază de cunoștințe pentru depanare, destinată suportului IT de nivel 1 (L1).">
+        <meta name="description" content="A troubleshooting knowledge base for L1 IT Help Desk support.">
       
       
         <meta name="author" content="Robert Oprisan">
       
       
-        <link rel="canonical" href="https://robertoprr.github.io/KnowledgeBase/ro/email/outlook-sync-issues/">
+        <link rel="canonical" href="https://robertoprr.github.io/KnowledgeBase/network/shared-drive-permissions/">
       
       
-        <link rel="prev" href="../../printers/printer-not-printing/">
+        <link rel="prev" href="../vpn-connection-issues/">
       
       
-        <link rel="next" href="../../security/malware-virus-infection/">
+        <link rel="next" href="../../hardware/computer-wont-boot/">
       
       
         
-          <link rel="alternate" href="../../../email/outlook-sync-issues/" hreflang="en">
+          <link rel="alternate" href="./" hreflang="en">
         
-          <link rel="alternate" href="./" hreflang="ro">
+          <link rel="alternate" href="../../ro/network/shared-drive-permissions/" hreflang="ro">
         
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Probleme de sincronizare Outlook - Baza de cunoștințe pentru suport IT</title>
+        <title>Shared Drive and File Permissions - IT Support Knowledge Base</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -59,9 +59,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -86,8 +86,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#probleme-de-sincronizare-email-outlook" class="md-skip">
-          Sari la conținut
+        <a href="#shared-drive-and-file-permission-issues" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -101,8 +101,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Antet">
-    <a href="../../" title="Baza de cunoștințe pentru suport IT" class="md-header__button md-logo" aria-label="Baza de cunoștințe pentru suport IT" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="IT Support Knowledge Base" class="md-header__button md-logo" aria-label="IT Support Knowledge Base" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.79 15.41c.95-2.17.95-4.66 0-6.82l-2.74 1.24c.6 1.38.6 2.95.01 4.34zm-4.37-11.2a8.54 8.54 0 0 0-6.83 0l1.24 2.73c1.39-.59 2.96-.59 4.35.01zM4.21 8.58a8.56 8.56 0 0 0 0 6.84l2.74-1.25c-.6-1.38-.6-2.96 0-4.35zm4.38 11.21a8.5 8.5 0 0 0 6.83-.01l-1.24-2.73a5.5 5.5 0 0 1-4.34.01zM12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2m0 6a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4"/></svg>
@@ -116,13 +116,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Baza de cunoștințe pentru suport IT
+            IT Support Knowledge Base
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Probleme de sincronizare Outlook
+              Shared Drive and File Permissions
             
           </span>
         </div>
@@ -162,20 +162,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Selectează limba">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../email/outlook-sync-issues/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="./" hreflang="ro" class="md-select__link">
+            <a href="../../ro/network/shared-drive-permissions/" hreflang="ro" class="md-select__link">
               Română
             </a>
           </li>
@@ -196,16 +196,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Căutare" placeholder="Căutare" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Caută">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="Resetează" aria-label="Resetează" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -218,7 +218,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Inițializare căutare
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -230,7 +230,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/RobertOprr/KnowledgeBase" title="Accesează repository-ul" class="md-source" data-md-component="source">
+        <a href="https://github.com/RobertOprr/KnowledgeBase" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -264,19 +264,19 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigație" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../" title="Baza de cunoștințe pentru suport IT" class="md-nav__button md-logo" aria-label="Baza de cunoștințe pentru suport IT" data-md-component="logo">
+    <a href="../.." title="IT Support Knowledge Base" class="md-nav__button md-logo" aria-label="IT Support Knowledge Base" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.79 15.41c.95-2.17.95-4.66 0-6.82l-2.74 1.24c.6 1.38.6 2.95.01 4.34zm-4.37-11.2a8.54 8.54 0 0 0-6.83 0l1.24 2.73c1.39-.59 2.96-.59 4.35.01zM4.21 8.58a8.56 8.56 0 0 0 0 6.84l2.74-1.25c-.6-1.38-.6-2.96 0-4.35zm4.38 11.21a8.5 8.5 0 0 0 6.83-.01l-1.24-2.73a5.5 5.5 0 0 1-4.34.01zM12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2m0 6a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4"/></svg>
 
     </a>
-    Baza de cunoștințe pentru suport IT
+    IT Support Knowledge Base
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/RobertOprr/KnowledgeBase" title="Accesează repository-ul" class="md-source" data-md-component="source">
+      <a href="https://github.com/RobertOprr/KnowledgeBase" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -296,14 +296,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Acasă
+    Home
   
 
     
@@ -348,7 +348,7 @@
   <span class="md-ellipsis">
     
   
-    Conturi
+    Accounts
   
 
     
@@ -364,7 +364,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Conturi
+    Accounts
   
 
           </label>
@@ -384,7 +384,7 @@
   <span class="md-ellipsis">
     
   
-    Resetare parolă și blocare cont
+    Password Reset & Account Lockout
   
 
     
@@ -412,7 +412,7 @@
   <span class="md-ellipsis">
     
   
-    Probleme de autentificare multi-factor (MFA)
+    MFA Issues
   
 
     
@@ -437,8 +437,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -449,13 +451,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -465,7 +465,7 @@
   <span class="md-ellipsis">
     
   
-    Rețea
+    Network
   
 
     
@@ -476,12 +476,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Rețea
+    Network
   
 
           </label>
@@ -494,14 +494,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../network/wifi-connectivity-troubleshooting/" class="md-nav__link">
+      <a href="../wifi-connectivity-troubleshooting/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Conectivitate Wi-Fi și rețea
+    Wi-Fi & Network Connectivity
   
 
     
@@ -522,14 +522,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../network/vpn-connection-issues/" class="md-nav__link">
+      <a href="../vpn-connection-issues/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Probleme de conexiune VPN
+    VPN Connection Issues
   
 
     
@@ -547,17 +547,44 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../network/shared-drive-permissions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shared Drive and File Permissions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    Unitate partajată și permisiuni fișiere
+    Shared Drive and File Permissions
   
 
     
@@ -566,6 +593,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#symptom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Symptom
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#possible-causes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possible Causes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-step Resolution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-escalate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Escalate
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -646,7 +737,7 @@
   <span class="md-ellipsis">
     
   
-    Calculatorul nu pornește
+    Computer Won't Boot
   
 
     
@@ -674,7 +765,7 @@
   <span class="md-ellipsis">
     
   
-    Performanță scăzută a calculatorului
+    Slow Computer Performance
   
 
     
@@ -702,7 +793,7 @@
   <span class="md-ellipsis">
     
   
-    Periferic nedetectat
+    Peripheral Not Detected
   
 
     
@@ -730,7 +821,7 @@
   <span class="md-ellipsis">
     
   
-    Ecran albastru (BSOD)
+    Blue Screen of Death (BSOD)
   
 
     
@@ -819,7 +910,7 @@
   <span class="md-ellipsis">
     
   
-    Software-ul nu se instalează sau se blochează
+    Software Won't Install or Crashes
   
 
     
@@ -872,7 +963,7 @@
   <span class="md-ellipsis">
     
   
-    Imprimante
+    Printers
   
 
     
@@ -888,7 +979,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Imprimante
+    Printers
   
 
           </label>
@@ -908,7 +999,7 @@
   <span class="md-ellipsis">
     
   
-    Imprimanta nu printează
+    Printer Not Printing
   
 
     
@@ -933,8 +1024,6 @@
       
   
   
-    
-  
   
   
     
@@ -947,11 +1036,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
@@ -972,7 +1063,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -987,44 +1078,17 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Probleme de sincronizare Outlook
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../email/outlook-sync-issues/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Probleme de sincronizare Outlook
+    Outlook Sync Problems
   
 
     
@@ -1033,70 +1097,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Cuprins">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Cuprins
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#simptom" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Simptom
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cauze-posibile" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cauze posibile
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rezolvare-pas-cu-pas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rezolvare pas cu pas
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cand-se-escaladeaza" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Când se escaladează
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1141,7 +1141,7 @@
   <span class="md-ellipsis">
     
   
-    Securitate
+    Security
   
 
     
@@ -1157,7 +1157,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Securitate
+    Security
   
 
           </label>
@@ -1177,7 +1177,7 @@
   <span class="md-ellipsis">
     
   
-    Infecție cu malware sau virus
+    Malware or Virus Infection
   
 
     
@@ -1230,7 +1230,7 @@
   <span class="md-ellipsis">
     
   
-    Proces
+    Process
   
 
     
@@ -1246,7 +1246,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Proces
+    Process
   
 
           </label>
@@ -1266,7 +1266,7 @@
   <span class="md-ellipsis">
     
   
-    Criterii de escaladare (L1 către L2)
+    Escalation Criteria (L1 to L2)
   
 
     
@@ -1300,7 +1300,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Cuprins">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -1309,15 +1309,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Cuprins
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#simptom" class="md-nav__link">
+  <a href="#symptom" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Simptom
+        Symptom
       
     </span>
   </a>
@@ -1325,10 +1325,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cauze-posibile" class="md-nav__link">
+  <a href="#possible-causes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cauze posibile
+        Possible Causes
       
     </span>
   </a>
@@ -1336,10 +1336,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rezolvare-pas-cu-pas" class="md-nav__link">
+  <a href="#step-by-step-resolution" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Rezolvare pas cu pas
+        Step-by-step Resolution
       
     </span>
   </a>
@@ -1347,10 +1347,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cand-se-escaladeaza" class="md-nav__link">
+  <a href="#when-to-escalate" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Când se escaladează
+        When to Escalate
       
     </span>
   </a>
@@ -1377,47 +1377,48 @@
   
 
 
-<h1 id="probleme-de-sincronizare-email-outlook">Probleme de sincronizare Email / Outlook<a class="headerlink" href="#probleme-de-sincronizare-email-outlook" title="Permanent link">&para;</a></h1>
-<h2 id="simptom">Simptom<a class="headerlink" href="#simptom" title="Permanent link">&para;</a></h2>
-<p>Emailurile noi nu apar în Outlook, sau emailurile trimise rămân blocate în
-outbox.</p>
-<h2 id="cauze-posibile">Cauze posibile<a class="headerlink" href="#cauze-posibile" title="Permanent link">&para;</a></h2>
+<h1 id="shared-drive-and-file-permission-issues">Shared Drive and File Permission Issues<a class="headerlink" href="#shared-drive-and-file-permission-issues" title="Permanent link">&para;</a></h1>
+<h2 id="symptom">Symptom<a class="headerlink" href="#symptom" title="Permanent link">&para;</a></h2>
+<p>The user cannot access a shared network drive or folder, or gets an
+"Access Denied" error trying to open a specific file.</p>
+<h2 id="possible-causes">Possible Causes<a class="headerlink" href="#possible-causes" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Outlook este în modul „Work Offline”.</li>
-<li>O problemă de conexiune la internet.</li>
-<li>Căsuța poștală este plină sau aproape de limita de stocare.</li>
-<li>Un fișier de date local (OST) corupt.</li>
-<li>O problemă cu profilul Outlook.</li>
-<li>O întrerupere a serviciului de email.</li>
+<li>The user isn't a member of the security group that grants access.</li>
+<li>The shared drive isn't mapped, or the mapping is broken.</li>
+<li>The user's account permissions were recently changed.</li>
+<li>A network connectivity issue is preventing the share from being
+  reached.</li>
+<li>The file is locked because another user has it open.</li>
+<li>The share or the server hosting it is temporarily unavailable.</li>
 </ul>
-<h2 id="rezolvare-pas-cu-pas">Rezolvare pas cu pas<a class="headerlink" href="#rezolvare-pas-cu-pas" title="Permanent link">&para;</a></h2>
+<h2 id="step-by-step-resolution">Step-by-step Resolution<a class="headerlink" href="#step-by-step-resolution" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Confirmă că utilizatorul are o conexiune funcțională la internet.</li>
-<li>Verifică dacă Outlook este în modul „Work Offline” și, dacă da,
-   comută-l înapoi online.</li>
-<li>Efectuează manual un Send/Receive pentru toate folderele.</li>
-<li>Confirmă că căsuța poștală nu este plină sau aproape de limita de
-   stocare.</li>
-<li>Testează webmail (email prin browser) pentru a vedea dacă problema este
-   specifică aplicației desktop Outlook.</li>
-<li>Dacă webmail funcționează dar aplicația desktop nu, închide Outlook și
-   redenumește fișierul de date local, astfel încât Outlook să îl
-   reconstruiască și resincronizeze.</li>
-<li>Repară instalarea Office dacă problema persistă.</li>
-<li>Creează un profil Outlook nou ca ultimă soluție înainte de escaladare.</li>
-<li>Confirmă că emailurile noi sosesc și cele trimise se livrează înainte de
-   a închide tichetul.</li>
+<li>Confirm the exact path the user is trying to access and the exact
+   error message.</li>
+<li>Confirm the user has a working network connection.</li>
+<li>Try accessing the share yourself, or have another user try, to check
+   whether it's a broad outage or specific to this user.</li>
+<li>Verify the user's group membership includes the group that grants
+   access to this share.</li>
+<li>Check whether the drive mapping exists and points to the correct
+   path, and remap it if broken.</li>
+<li>If the error is on a specific file rather than the whole share, check
+   whether another user has it open and locked.</li>
+<li>Restart the user's device and try again, in case of a stale
+   authentication token.</li>
+<li>Confirm the file server or share itself is online and reachable.</li>
+<li>Confirm the user can now access the share and the specific file
+   before closing the ticket.</li>
 </ol>
-<h2 id="cand-se-escaladeaza">Când se escaladează<a class="headerlink" href="#cand-se-escaladeaza" title="Permanent link">&para;</a></h2>
+<h2 id="when-to-escalate">When to Escalate<a class="headerlink" href="#when-to-escalate" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Webmail eșuează și el, ceea ce indică o problemă la nivel de căsuță
-  poștală sau de serviciu.</li>
-<li>Căsuța poștală este plină și necesită o modificare a politicii de
-  stocare sau arhivare.</li>
-<li>Mai mulți utilizatori sunt afectați, sugerând o întrerupere a serviciului
-  de email.</li>
-<li>Problema implică permisiuni de cont, căsuțe poștale partajate sau setări
-  pe care nu le poți modifica la nivel L1.</li>
+<li>The user needs a permission or group membership change you don't have
+  rights to make.</li>
+<li>The share or file server appears to be down for multiple users.</li>
+<li>The request involves granting access to sensitive or restricted data
+  requiring manager or owner approval.</li>
+<li>The issue persists after remapping the drive and confirming group
+  membership, suggesting a server-side problem.</li>
 </ul>
 
 
@@ -1436,10 +1437,10 @@ outbox.</p>
     
       
   <span class="md-source-file__fact">
-    <span class="md-icon" title="Ultima actualizare">
+    <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="3 septembrie 2026 17:58:16 UTC">3 septembrie 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 3, 2026 19:22:40 UTC">September 3, 2026</span>
   </span>
 
     
@@ -1463,7 +1464,7 @@ outbox.</p>
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Înapoi sus
+  Back to top
 </button>
         
       </main>
@@ -1499,10 +1500,10 @@ outbox.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.top", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat \u00een clipboard", "clipboard.copy": "Copiaz\u0103 \u00een clipboard", "search.result.more.one": "\u00cenc\u0103 1 pe aceast\u0103 pagin\u0103", "search.result.more.other": "\u00cenc\u0103 # pe aceast\u0103 pagin\u0103", "search.result.none": "Nu a fost g\u0103sit niciun document", "search.result.one": "1 document g\u0103sit", "search.result.other": "# documente g\u0103site", "search.result.placeholder": "Tasteaz\u0103 pentru a \u00eencepe c\u0103utarea", "search.result.term.missing": "Lips\u0103", "select.version": "Selecteaz\u0103 versuine"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

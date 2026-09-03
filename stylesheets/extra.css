@@ -11,20 +11,43 @@
   opacity: 1;
 }
 
-/* Boost secondary text contrast in dark mode */
+/* Neutral near-black dark mode instead of Material's default blue-tinted
+   slate, plus boosted secondary text contrast */
 [data-md-color-scheme="slate"] {
-  --md-default-fg-color--light: hsla(var(--md-hue), 15%, 90%, 0.7);
-  --md-default-fg-color--lighter: hsla(var(--md-hue), 15%, 90%, 0.45);
+  --md-default-bg-color: #121212;
+  --md-default-fg-color: rgba(255, 255, 255, 0.87);
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.7);
+  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.45);
 }
 
-/* Custom brand palette (deep steel blue + teal accent) instead of the
-   Material-for-MkDocs tutorial default (indigo) */
-:root {
-  --md-primary-fg-color: #2a4b7c;
-  --md-primary-fg-color--light: #4a6fa5;
-  --md-primary-fg-color--dark: #1b3352;
+/* Explicit pure white in light mode */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #ffffff;
+}
+
+/* Custom brand palette: neutral charcoal (blends with the near-black dark
+   mode) + teal accent, instead of the Material-for-MkDocs tutorial
+   default (indigo). Material sets the named-palette colors via
+   attributes on <body> (e.g. [data-md-color-primary="indigo"]), so a
+   plain :root override is inherited past rather than beaten — this has
+   to match on the same attributes to actually win the cascade. */
+[data-md-color-primary] {
+  --md-primary-fg-color: #23272b;
+  --md-primary-fg-color--light: #3d434a;
+  --md-primary-fg-color--dark: #16191c;
+}
+
+[data-md-color-accent] {
   --md-accent-fg-color: #2ba6a4;
   --md-accent-fg-color--transparent: #2ba6a41a;
+}
+
+/* Material also hardcodes link/active-nav color per named primary+scheme
+   pair (e.g. [data-md-color-scheme=slate][data-md-color-primary=indigo])
+   at higher specificity than the single-attribute overrides above, so it
+   needs its own, equally-specific override to actually take the teal */
+[data-md-color-scheme][data-md-color-primary] {
+  --md-typeset-a-color: #2ba6a4;
 }
 
 /* Force the homepage quick-link cards into one balanced row instead of
